@@ -26,7 +26,7 @@ setuptools.setup(
             'six',
             'protobuf',
             'grpcio',
-            'tensorflow=1.3'
+            'tensorflow==1.3'
         ],
         license='Apache 2.0',
         classifiers=[
