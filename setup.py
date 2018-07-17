@@ -18,7 +18,7 @@ if py_version < ('2', '7') or py_version[0] == '3' and py_version < ('3', '4'):
 
 setuptools.setup(
         name='tensorflow_serving_api',
-        version='1.3',
+        version='1.8',
         packages=setuptools.find_packages(exclude=[
             '*.tests', '*.tests.*', 'tests.*', 'tests',
         ]),
@@ -26,7 +26,7 @@ setuptools.setup(
             'six',
             'protobuf',
             'grpcio',
-            'tensorflow==1.3'
+            'tensorflow==1.8'
         ],
         license='Apache 2.0',
         classifiers=[
